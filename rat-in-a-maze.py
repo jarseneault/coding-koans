@@ -19,7 +19,7 @@ def findPath(arr, n):
     return ' '.join(solutions)
 
 
-def findPathHelper(arr, n, x = 0, y = 0, path = '', solutions = None):
+def findPathHelper(arr, n, x=0, y=0, path='', solutions=None):
     target_x = n - 1
     target_y = n - 1
     arr[y][x] = VISITED
